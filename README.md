@@ -1,1 +1,1 @@
-# Covid-Tracking-By-State
+# Covid-Tracking-US-CA
