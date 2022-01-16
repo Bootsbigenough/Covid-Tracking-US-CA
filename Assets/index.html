@@ -6,51 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>covid stats project</title>
      <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
 </head>
 
 <body>
 <!-- Navigation -->
-    <header>
-        <h1>
-            <a href="/">
-                Covid Comparisons between United States And Canada
-            </a>
+<header>
+
+     <nav class="navbar is-primary">
+        <!-- logo/brandname -->
+        <h1 class="is-size-3 has-text-centered py-4 my-2">
+            <div class="navbar-brand">
+                <a class="navbar-item">
+                    <img src="images\Covid tracker logo.png" alt="Covid tracker image" style = "max-height: 70px" class= "py-2 px-2" >
+                    </figure>
+                Covid Stats
+                </a>
+                <a class="navbar-burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
         </h1>
-        <nav>
-            
-            <ul>
-                <li>
-                    <a href="#United-States-Statistics">United States Statistics</a>
-                </li>
-                <li>
-                    <a href="#Canada-Statistics">Canada Statistics</a>
-                </li>
-                <li>
-                    <a href="#Graph">Graph</a>
-                </li>
-                
-            </ul>
+        <div class = "navbar-menu" id="nav-links">
+            <div class="navbar-end is-size-5">
+                <a class="navbar-item">United States Statistics</a>
+                <a class="navbar-item">Canada Statistics</a>
+                <a class="navbar-item">Graph</a>
+            </div>
+        </div>
         </nav>
-    </header>
+
+</header>
 <!-- Section 1 -->
     <section id="United-States-Statistics" class="Stats">
-        <h2>
+        <h2 class= "is-size-5">
             United States Stats
         </h2>
-
+            
     </section>
 <!-- Section 2 -->
     <section id="Canada-Statistics" class="Stats">
-        <h2>
+        <h2 class= "is-size-5">
             Canada Stats
         </h2>
 </section>
 <!-- Section 3 -->
     <section id="Graph" class="Stats">
-        <h2>
+        <h2 class= "is-size-5">
             Graph of US vs. CA Covid Stats
         </h2>
     </section>
+ <script src="js/script.js"></script>
 </body>
 
 </html>
