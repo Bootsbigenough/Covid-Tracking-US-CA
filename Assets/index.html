@@ -6,51 +6,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>covid stats project</title>
      <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
 </head>
 
 <body>
+    
 <!-- Navigation -->
-    <header>
-        <h1>
-            <a href="/">
-                Covid Comparisons between United States And Canada
-            </a>
-        </h1>
-        <nav>
-            
-            <ul>
-                <li>
-                    <a href="#United-States-Statistics">United States Statistics</a>
-                </li>
-                <li>
-                    <a href="#Canada-Statistics">Canada Statistics</a>
-                </li>
-                <li>
-                    <a href="#Graph">Graph</a>
-                </li>
-                
-            </ul>
-        </nav>
-    </header>
-<!-- Section 1 -->
-    <section id="United-States-Statistics" class="Stats">
-        <h2>
-            United States Stats
-        </h2>
+<header>
 
+     <nav class="navbar is-primary">
+        <h1 class="is-size-3 has-text-centered py-4 my-2">
+            <div class="navbar-brand">
+                <a class="navbar-item">
+                    <img src="images\Covid tracker logo.png" alt="Covid tracker image" style = "max-height: 70px" class= "py-2 px-2" >
+                    </figure>
+                Covid Stats
+                </a>
+                <a class="navbar-burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </h1>
+        <div class = "navbar-menu" id="nav-links">
+            <div class="navbar-end is-size-5">
+                <a class="navbar-item" href="#United-States-Stats">United States Statistics</a>
+                <a class="navbar-item" href="#Canada-Stats">Canada Statistics</a>
+                <a class="navbar-item" href="#Graph">Graph</a>
+            </div>
+        </div>
+        </nav>
+
+</header>
+<!-- Section 1 -->
+    <section class="Stats">
+        <div class="container">
+            <div class="columns box">
+                <div class="column">
+                    <h1 class="is-size-1 title">
+                        United States 
+                        <a id= "United-States-Stats">
+                    </a>
+                    </h1>
+                        <h2 class="is-size-2 subtitle">
+                        Stats
+                        </h2>
+<!-- Table For US Start -->
+                            <div class="table-container">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                                <th><abbr title="Cases">Cases</abbr></th>
+                                                <th><abbr title="Hospitalizations">Hospitalizations</abbr></th>
+                                                <th><abbr title="Recovered">Recovered</abbr></th>
+                                        </tr>
+                                    </thead>
+                                   
+                                    <tbody>
+                                        <tr>
+                                            <td>69420</td>
+                                            <td>500</td>
+                                            <td>600</td>
+                                    </tbody>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate id labore ea rerum magni. Ipsum accusantium, mollitia sint sunt quia totam dolor necessitatibus quibusdam iure exercitationem, architecto blanditiis ad sit!
+                                </p>
+                                </table>
+                            </div>
+<!-- End of US Table -->
+                </h2>
+                </div>
+    <!-- Section 2 -->
+                <div class="column">
+                   <h1 class="is-size-1 title">
+                    Canada
+                    <a id= "Canada-Stats">
+                        </a>
+                    </h1>
+                    <h2 class="is-size-2 subtitle">
+                        Stats
+                    </h2>
+<!-- Start of Canada Table -->
+                    <div class="table-container">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                        <th><abbr title="Cases">Cases</abbr></th>
+                                        <th><abbr title="Hospitalizations">Hospitalizations</abbr></th>
+                                        <th><abbr title="Recovered">Recovered</abbr></th>
+                                </tr>
+                            </thead>
+                           
+                            <tbody>
+                                <tr>
+                                    <td>a few</td>
+                                    <td>500</td>
+                                    <td>600</td>
+                            </tbody>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nostrum laboriosam earum nesciunt enim quam? Aspernatur, aut. Voluptate tenetur ducimus cupiditate earum facere dicta, sed a doloremque odio, reiciendis aperiam.
+                        </p>
+                        </table>
+                        </div>
+<!-- End of Canada Table -->
+                    </h2>
+                </div>
+    <!-- Section 3 -->
+                <div class="column">
+                    <h1 class="is-size-1 title">
+                        Graph of US & CA Covid 
+                        <a id="Graph">
+                        </a>
+                         <h2 class="is-size-2 subtitle">
+                            Stats
+                        </h2>
+                    </h1>
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quasi, libero dicta vero tenetur hic dignissimos. Debitis molestias aperiam nihil incidunt mollitia earum omnis totam eum dolores. Quasi, rem ducimus!
+                        </p>
+                    </h2>
+                </div>
+            </div>
+        </div>
     </section>
-<!-- Section 2 -->
-    <section id="Canada-Statistics" class="Stats">
-        <h2>
-            Canada Stats
-        </h2>
-</section>
-<!-- Section 3 -->
-    <section id="Graph" class="Stats">
-        <h2>
-            Graph of US vs. CA Covid Stats
-        </h2>
-    </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                Copyright 2022 I cant believe we are still dealing with this
+            </p>
+        </div>
+    </footer>
+ <script src="js/script.js"></script>
 </body>
 
 </html>

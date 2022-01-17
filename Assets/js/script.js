@@ -1,10 +1,3 @@
-// mobile menu
-const burgerIcon = document.querySelector('#burger');
-const navbarMenu = document.querySelector('#nav-links');
-
-burgerIcon.addEventListener('click' , () => {
-    navbarMenu.classList.toggle('is-active');
-})
 
 // Get Covid data from UNStats
 var getCovidData = function(Country) {
@@ -30,3 +23,10 @@ var getCovidData = function(Country) {
     });
 };
 
+// mobile menu
+const burgerIcon = document.querySelector('#burger');
+const navbarMenu = document.querySelector('#nav-links');
+
+burgerIcon.addEventListener('click' , () => {
+    navbarMenu.classList.toggle('is-active');
+})
