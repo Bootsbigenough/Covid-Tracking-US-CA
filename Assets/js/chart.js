@@ -1,9 +1,10 @@
+var xValues= ['January' , 'February' , 'March' , 'April' , 'May' , 'June' , 'July' , 'August' , 'September' , 'October' , 'November' , 'December']
 let myChart = document.getElementById('myChart').getContext('2d');
 
 let covidStatsChart = new Chart(myChart, {
     type:'line',
-    data:{
-        labels:['January' , 'February' , 'March' , 'April' , 'May' , 'June' , 'July' , 'August' , 'September' , 'October' , 'November' , 'December'] ,
+    data: {
+        labels: xValues,
         datasets:[{
             label:'United States' ,
             data:[
@@ -21,9 +22,32 @@ let covidStatsChart = new Chart(myChart, {
                 6349705
             ],
             backgroundColor:'#000',
-            borderColor: '#00d1b2',
+            borderColor: '#0000FF',
+            fill: false
+        },{
+            label:'Canada' ,
+            data:[
+                874087,
+                272634,
+                473839,
+                1475638,
+                35353,
+                633453,
+                1345345,
+                1635454,
+                874087,
+                353,
+                353456,
+                353674
+            ],
+                backgroundColor:'#000',
+                borderColor: '#FF0000',
+                fill: false
+
         }]
         },
-        options:{}
+        options:{
+            legend: {display: true}
+        }
     
 });
