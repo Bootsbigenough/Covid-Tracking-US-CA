@@ -4,7 +4,7 @@
 
 AS AN government 
 I WANT to a website that compares the United States to Canada Covid stats 
-So THAT I can show date for Monthly Cases, hospitalizations and recovered patients.
+So THAT I can show data for Monthly Cases, hospitalizations and recovered patients.
 
 ## Acceptance Criteria
 
