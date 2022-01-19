@@ -18,14 +18,14 @@
 
         <nav class="navbar is-primary is-rounded mx-5 my-5">
             <h1 class="is-size-3 has-text-centered py-4 my-2 x-4">
-                <div style="background-color: black;" class="navbar-brand">
+                <div class="navbar-brand" id="logo-box">
                     <a class="navbar-item">
-                        <img src="./Assets/images/Covid tracker logo.png" alt="Covid tracker image" style="max-height: 70px"
-                            class="py-2 px-2">
+                      <!--  <img src="./Assets/images/Covid tracker logo.png" alt="Covid tracker image" 
+                            class="py-2 px-2">-->
                         </figure>
                         Covid Stats
                     </a>
-                    <a style="background-color: black;" class="navbar-burger" id="burger">
+                    <a class="navbar-burger burger-spacing " id="burger">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -46,7 +46,7 @@
     <section class="Stats">
         <div class="container is-fluid">
             <div class="columns box">
-                <div style="background-color: lightgrey;" class="column is-one-third box">
+                <div class="column is-one-third box data-sections">
                     <h1 class="is-size-1 title has-text-centered">
                         United States
                         <a id="United-States-Stats">
@@ -57,12 +57,12 @@
 
                         <figure class="image is-64x64">
                             <img class="is-rounded">
-                            <img src="./Assets/images/Stats Icon.png">
+                            <img src="./Assets/images/american-flag.png">
                         </figure>
                     </h2>
 <!-- Table For US Start -->
                     <div class="table-container">
-                        <div class="columns is-centered is-gapless">
+                        <div class="columns is-centered is-gapless" id="usa-table">
                         <table class="table">
                             <thead>
                                 <tr>
@@ -143,7 +143,7 @@
                     </div>
                 </div>
 <!-- Section 2 -->
-                <div style="background-color: lightgrey;" class="column is-one-third box">
+                <div class="column is-one-third box data-sections">
                     <h1 class="is-size-1 title has-text-centered">
                         Canada
                         <a id="Canada-Stats">
@@ -153,13 +153,13 @@
                         Stats
                         <figure class="image is-64x64">
                             <img class="is-rounded">
-                            <img src="./Assets/images/Stats Icon.png">
+                            <img src="./Assets/images/canada-flag.png">
                         </figure>
                     </h2>
 <!-- Start of Canada Table -->
                     <div class="table-container">
-                        <div class="columns is-centered is-gapless">
-                        <table class="table">
+                        <div class="columns is-centered is-gapless" class="is-flex-direction-row" >
+                        <table class="table" >
                             <thead>
                                 <tr>
                                     <th><abbr title="Month">Month</abbr></th>
@@ -238,7 +238,7 @@
                     </h2>
                 </div>
 <!-- Section 3 -->
-                <div style="background-color: lightgrey;" class="column is-one-third box mb-5">
+                <div class="column is-one-third box mb-5 data-sections">
                     <h1 class="is-size-1 title has-text-centered">
                         Comparison
                         <a id="Graph">
@@ -247,14 +247,14 @@
                             Stats
                             <figure class="image is-64x64">
                                 <img class="is-rounded">
-                                <img src="./Assets/images/Stats Icon.png">
+                                <img src="./Assets/images/graph-icon.png">
                             </figure>
                         </h2>
                     </h1>
 
                     </h2>
 <!-- Start of Chart -->
-                    <div style="background-color: white;">
+                    <div class="chart">
                         <canvas id="myChart"></canvas>
                     </div>
 
@@ -263,6 +263,8 @@
         </div>
 
     </section>
+   
+    <!--Footer-->
     <footer class="footer">
         <div class="content has-text-centered">
             <p>

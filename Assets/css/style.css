@@ -1,0 +1,37 @@
+#usa-table {
+padding-left:3vw;
+}
+
+nav {
+    border-radius: 25px;
+}
+
+#logo-box {
+    border-radius: 25px;
+    margin-left:2vw;
+    margin-right:2vw;
+    background-color: black;
+}
+
+.burger-spacing {
+    border-radius: 25px;
+    background-color: black;  
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+  .data-sections {
+    background-color: lightgrey;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.chart {
+    background-color: white;
+}
