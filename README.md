@@ -25,3 +25,6 @@ Resources I used: Chart.js vscode, js, CSS Bulma, Youtube RapidAPI, W3schools, T
 ## Link to Site
 https://bootsbigenough.github.io/Covid-Tracking-US-CA/
 
+## Link to Powerpoint
+https://docs.google.com/presentation/d/1xIETZ1NxitvuDVJ7yOJm5GbdW5i0p2fmzA9-bXrBMGU/edit?usp=sharing
+
