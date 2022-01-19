@@ -4,7 +4,7 @@
 
 AS AN government 
 I WANT to a website that compares the United States to Canada Covid stats 
-So THAT I can show date for Monthley Cases, hospitalizations and recovered patients.
+So THAT I can show date for Monthly Cases, hospitalizations and recovered patients.
 
 ## Acceptance Criteria
 
@@ -20,7 +20,7 @@ So THAT I can show date for Monthley Cases, hospitalizations and recovered patie
 
 Resources I used: Chart.js vscode, js, CSS Bulma, Youtube RapidAPI, W3schools, TA Chris's Brain
 
-![screenshot](assets/images/webpage.PNG)
+![screenshot](Assets/images/webpage.PNG)
 
 ## Link to Site
 https://bootsbigenough.github.io/Covid-Tracking-US-CA/
