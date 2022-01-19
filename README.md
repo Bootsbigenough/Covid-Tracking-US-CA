@@ -20,7 +20,7 @@ So THAT I can show date for Monthley Cases, hospitalizations and recovered patie
 
 Resources I used: Chart.js vscode, js, CSS Bulma, Youtube RapidAPI, W3schools, TA Chris's Brain
 
-![screenshot]
+![screenshot](assets/images/webpage.PNG)
 
 ## Link to Site
 https://bootsbigenough.github.io/Covid-Tracking-US-CA/
